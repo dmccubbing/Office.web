@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/addressbook/groups.inc                                  |
+ | lib/Office.web/steps/addressbook/groups.inc                                  |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2010-2013, The Roundcube Dev Team                       |

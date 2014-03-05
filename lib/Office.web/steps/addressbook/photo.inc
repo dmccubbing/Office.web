@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/addressbook/photo.inc                                   |
+ | lib/Office.web/steps/addressbook/photo.inc                                   |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2013, The Roundcube Dev Team                       |
@@ -87,5 +87,5 @@ if (!$cid && $email) {
 }
 
 header('Content-Type: ' . rcube_mime::image_content_type($data));
-echo $data ? $data : file_get_contents('program/resources/blank.gif');
+echo $data ? $data : file_get_contents('lib/Office.web/resources/blank.gif');
 exit;

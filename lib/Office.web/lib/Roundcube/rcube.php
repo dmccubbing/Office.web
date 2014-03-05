@@ -753,7 +753,7 @@ class rcube
 
 
     /**
-     * Read directory program/localization and return a list of available languages
+     * Read directory lib/Office.web/localization and return a list of available languages
      *
      * @return array List of available localizations
      */

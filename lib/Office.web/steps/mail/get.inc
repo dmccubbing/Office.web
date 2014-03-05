@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/get.inc                                            |
+ | lib/Office.web/steps/mail/get.inc                                            |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2013, The Roundcube Dev Team                       |
@@ -36,7 +36,7 @@ if (!empty($_GET['_preload'])) {
 ob_end_clean();
 
 
-// similar code as in program/steps/mail/show.inc
+// similar code as in lib/Office.web/steps/mail/show.inc
 if (!empty($_GET['_uid'])) {
     $uid = rcube_utils::get_input_value('_uid', rcube_utils::INPUT_GET);
     $RCMAIL->config->set('prefer_html', true);
@@ -191,7 +191,7 @@ else if (strlen($part_id)) {
                     $OUTPUT->nocacheing_headers();
                     header("Content-Type: image/gif");
                     header("Content-Transfer-Encoding: binary");
-                    readfile(INSTALL_PATH . 'program/resources/blocked.gif');
+                    readfile(INSTALL_PATH . 'lib/Office.web/resources/blocked.gif');
                 }
                 else {  // html warning with a button to load the file anyway
                     $OUTPUT = new rcmail_html_page();

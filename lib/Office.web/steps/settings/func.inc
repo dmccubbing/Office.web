@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/settings/func.inc                                       |
+ | lib/Office.web/steps/settings/func.inc                                       |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2013, The Roundcube Dev Team                       |

@@ -4,7 +4,7 @@
 define('INSTALL_PATH', realpath(dirname(__FILE__) . '/..') . '/' );
 ini_set('memory_limit', -1);
 
-require_once INSTALL_PATH.'program/include/clisetup.php';
+require_once INSTALL_PATH.'lib/Office.web/include/clisetup.php';
 
 function print_usage()
 {

@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/addressbook/search.inc                                  |
+ | lib/Office.web/steps/addressbook/search.inc                                  |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2011, The Roundcube Dev Team                       |

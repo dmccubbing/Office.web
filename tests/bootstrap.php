@@ -30,7 +30,7 @@ if (@is_dir(TESTS_DIR . 'config')) {
     define('RCUBE_CONFIG_DIR', TESTS_DIR . 'config');
 }
 
-require_once(INSTALL_PATH . 'program/include/iniset.php');
+require_once(INSTALL_PATH . 'lib/Office.web/include/iniset.php');
 
 rcmail::get_instance('test')->config->set('devel_mode', false);
 

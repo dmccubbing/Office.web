@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/include/rcmail_string_replacer.php                            |
+ | lib/Office.web/include/rcmail_string_replacer.php                            |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2012-2013, The Roundcube Dev Team                       |

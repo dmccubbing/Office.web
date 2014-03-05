@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/search_contacts.inc                                |
+ | lib/Office.web/steps/mail/search_contacts.inc                                |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2013-2014, The Roundcube Dev Team                       |

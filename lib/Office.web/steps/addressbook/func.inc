@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/addressbook/func.inc                                    |
+ | lib/Office.web/steps/addressbook/func.inc                                    |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2013, The Roundcube Dev Team                       |
@@ -769,7 +769,7 @@ function rcmail_contact_photo($attrib)
     if ($result = $CONTACTS->get_result())
         $record = $result->first();
 
-    $photo_img = $attrib['placeholder'] ? $RCMAIL->output->get_skin_file($attrib['placeholder']) : 'program/resources/blank.gif';
+    $photo_img = $attrib['placeholder'] ? $RCMAIL->output->get_skin_file($attrib['placeholder']) : 'lib/Office.web/resources/blank.gif';
     if ($record['_type'] == 'group' && $attrib['placeholdergroup'])
         $photo_img = $RCMAIL->output->get_skin_file($attrib['placeholdergroup']);
 

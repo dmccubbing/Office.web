@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/include/rcmail_output_html.php                                |
+ | lib/Office.web/include/rcmail_output_html.php                                |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2006-2013, The Roundcube Dev Team                       |
@@ -93,7 +93,7 @@ class rcmail_output_html extends rcmail_output
         // don't wait for page onload. Call init at the bottom of the page (delayed)
         $this->add_script(self::JS_OBJECT_NAME.'.init();', 'docready');
 
-        $this->scripts_path = 'program/js/';
+        $this->scripts_path = 'lib/Office.web/js/';
         $this->include_script('jquery.min.js');
         $this->include_script('common.js');
         $this->include_script('app.js');
@@ -606,7 +606,7 @@ class rcmail_output_html extends rcmail_output
         $ERROR_CODE    = $code;
         $ERROR_MESSAGE = $message;
 
-        include RCUBE_INSTALL_PATH . 'program/steps/utils/error.inc';
+        include RCUBE_INSTALL_PATH . 'lib/Office.web/steps/utils/error.inc';
         exit;
     }
 
@@ -1440,7 +1440,7 @@ class rcmail_output_html extends rcmail_output
         }
 
         $attrib['name'] = $attrib['id'];
-        $attrib['src'] = $attrib['src'] ? $this->abs_url($attrib['src'], true) : 'program/resources/blank.gif';
+        $attrib['src'] = $attrib['src'] ? $this->abs_url($attrib['src'], true) : 'lib/Office.web/resources/blank.gif';
 
         // register as 'contentframe' object
         if ($is_contentframe || $attrib['contentframe']) {

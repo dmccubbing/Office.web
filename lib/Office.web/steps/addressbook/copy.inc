@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/addressbook/copy.inc                                    |
+ | lib/Office.web/steps/addressbook/copy.inc                                    |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2007-2013, The Roundcube Dev Team                       |

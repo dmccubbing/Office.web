@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/include/iniset.php                                            |
+ | lib/Office.web/include/iniset.php                                            |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2008-2013, The Roundcube Dev Team                       |
@@ -33,7 +33,7 @@ if (!defined('RCMAIL_CONFIG_DIR')) {
 }
 
 if (!defined('RCUBE_LOCALIZATION_DIR')) {
-    define('RCUBE_LOCALIZATION_DIR', INSTALL_PATH . 'program/localization/');
+    define('RCUBE_LOCALIZATION_DIR', INSTALL_PATH . 'lib/Office.web/localization/');
 }
 
 define('RCUBE_INSTALL_PATH', INSTALL_PATH);
@@ -43,7 +43,7 @@ define('RCUBE_CONFIG_DIR',  RCMAIL_CONFIG_DIR.'/');
 // RC include folders MUST be included FIRST to avoid other
 // possible not compatible libraries (i.e PEAR) to be included
 // instead the ones provided by RC
-$include_path = INSTALL_PATH . 'program/lib' . PATH_SEPARATOR;
+$include_path = INSTALL_PATH . 'lib/Office.web/lib' . PATH_SEPARATOR;
 $include_path.= ini_get('include_path');
 
 if (set_include_path($include_path) === false) {
@@ -66,7 +66,7 @@ if (file_exists('vendor/autoload.php')) {
 }
 
 // backward compatybility (to be removed)
-require_once INSTALL_PATH . 'program/include/bc.php';
+require_once INSTALL_PATH . 'lib/Office.web/include/bc.php';
 
 
 /**
@@ -75,7 +75,7 @@ require_once INSTALL_PATH . 'program/include/bc.php';
 function rcmail_autoload($classname)
 {
     if (strpos($classname, 'rcmail') === 0) {
-        $filepath = INSTALL_PATH . "program/include/$classname.php";
+        $filepath = INSTALL_PATH . "lib/Office.web/include/$classname.php";
         if (is_readable($filepath)) {
             include_once $filepath;
             return true;

@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/include/rcmail.php                                            |
+ | lib/Office.web/include/rcmail.php                                            |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2008-2014, The Roundcube Dev Team                       |
@@ -1778,7 +1778,7 @@ class rcmail extends rcube
             $lang = substr($lang, 0, 2);
         }
 
-        if (!file_exists(INSTALL_PATH . 'program/js/tiny_mce/langs/'.$lang.'.js')) {
+        if (!file_exists(INSTALL_PATH . 'lib/Office.web/js/tiny_mce/langs/'.$lang.'.js')) {
             $lang = 'en';
         }
 

@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/folders.inc                                        |
+ | lib/Office.web/steps/mail/folders.inc                                        |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2013, The Roundcube Dev Team                       |

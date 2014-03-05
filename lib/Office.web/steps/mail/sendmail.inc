@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/sendmail.inc                                       |
+ | lib/Office.web/steps/mail/sendmail.inc                                       |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2013, The Roundcube Dev Team                       |
@@ -737,7 +737,7 @@ function rcmail_fix_emoticon_paths($mime_message)
     // remove any null-byte characters before parsing
     $body = preg_replace('/\x00/', '', $body);
 
-    $searchstr = 'program/js/tiny_mce/plugins/emotions/img/';
+    $searchstr = 'lib/Office.web/js/tiny_mce/plugins/emotions/img/';
     $offset = 0;
 
     // keep track of added images, so they're only added once

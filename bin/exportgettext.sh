@@ -16,7 +16,7 @@
 */
 
 define('INSTALL_PATH', realpath(dirname(__FILE__) . '/..') . '/' );
-require INSTALL_PATH.'program/include/clisetup.php';
+require INSTALL_PATH.'lib/Office.web/include/clisetup.php';
 
 if ($argc < 2) {
 	die("Usage: " . basename($argv[0]) . " SRCDIR DESTDIR\n");

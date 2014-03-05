@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/autocomplete.inc                                   |
+ | lib/Office.web/steps/mail/autocomplete.inc                                   |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2008-2013, Roundcube Dev Team                           |

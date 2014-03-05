@@ -36,7 +36,7 @@ Note:
 
 // Charset maps
 // Adapted to fit Roundcube
-define("UTF8_MAP_DIR", "program/lib/encoding");
+define("UTF8_MAP_DIR", "lib/Office.web/lib/encoding");
 
 //Error constants
 define("ERR_OPEN_MAP_FILE", "ERR_OPEN_MAP_FILE");

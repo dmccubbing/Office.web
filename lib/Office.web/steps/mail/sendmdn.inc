@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/sendmdn.inc                                        |
+ | lib/Office.web/steps/mail/sendmdn.inc                                        |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2008-2013, The Roundcube Dev Team                       |

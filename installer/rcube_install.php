@@ -466,7 +466,7 @@ class rcube_install
   {
     $files = array(
       'installer/images/roundcube_logo.png' => 'image/png',
-      'program/resources/blank.tif' => 'image/tiff',
+      'lib/Office.web/resources/blank.tif' => 'image/tiff',
       'skins/larry/images/buttons.gif' => 'image/gif',
       'skins/larry/README' => 'text/plain',
     );

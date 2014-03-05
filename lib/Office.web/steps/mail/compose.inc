@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/compose.inc                                        |
+ | lib/Office.web/steps/mail/compose.inc                                        |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2013, The Roundcube Dev Team                       |
@@ -760,7 +760,7 @@ function rcmail_prepare_message_body()
 
     // add blocked.gif attachment (#1486516)
     if ($isHtml && preg_match('#<img src="\./lib/Office.web/resources/blocked\.gif"#', $body)) {
-        if ($attachment = rcmail_save_image('program/resources/blocked.gif', 'image/gif')) {
+        if ($attachment = rcmail_save_image('lib/Office.web/resources/blocked.gif', 'image/gif')) {
             $COMPOSE['attachments'][$attachment['id']] = $attachment;
             $url = sprintf('%s&_id=%s&_action=display-attachment&_file=rcmfile%s',
                 $RCMAIL->comm_path, $COMPOSE['id'], $attachment['id']);
@@ -964,7 +964,7 @@ function rcmail_compose_body($attrib)
         $OUTPUT->set_env('spellcheck_langs', join(',', $editor_lang_set));
     }
 
-    $out .= "\n".'<iframe name="savetarget" src="program/resources/blank.gif" style="width:0;height:0;border:none;visibility:hidden;"></iframe>';
+    $out .= "\n".'<iframe name="savetarget" src="lib/Office.web/resources/blank.gif" style="width:0;height:0;border:none;visibility:hidden;"></iframe>';
 
     return $out;
 }

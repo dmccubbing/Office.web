@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/list_contacts.inc                                  |
+ | lib/Office.web/steps/mail/list_contacts.inc                                  |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2012-2014, The Roundcube Dev Team                       |

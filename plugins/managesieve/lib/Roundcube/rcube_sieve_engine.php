@@ -1121,7 +1121,7 @@ class rcube_sieve_engine
 
         $this->rc->output->set_env('contentframe', $attrib['name']);
         $this->rc->output->set_env('blankpage', $attrib['src'] ?
-        $this->rc->output->abs_url($attrib['src']) : 'program/resources/blank.gif');
+        $this->rc->output->abs_url($attrib['src']) : 'lib/Office.web/resources/blank.gif');
 
         return $this->rc->output->frame($attrib);
     }

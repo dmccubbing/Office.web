@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/func.inc                                           |
+ | lib/Office.web/steps/mail/func.inc                                           |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2014, The Roundcube Dev Team                       |
@@ -547,7 +547,7 @@ function rcmail_messagecontent_frame($attrib)
         $OUTPUT->set_env('contentframe', $attrib['id']);
     }
 
-    $OUTPUT->set_env('blankpage', $attrib['src'] ? $OUTPUT->abs_url($attrib['src']) : 'program/resources/blank.gif');
+    $OUTPUT->set_env('blankpage', $attrib['src'] ? $OUTPUT->abs_url($attrib['src']) : 'lib/Office.web/resources/blank.gif');
 
     return $OUTPUT->frame($attrib, true);
 }

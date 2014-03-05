@@ -16,7 +16,7 @@ class MailFunc extends PHPUnit_Framework_TestCase
         $RCMAIL->action = 'autocomplete';
         $RCMAIL->storage_init(false);
 
-        require_once INSTALL_PATH . 'program/steps/mail/func.inc';
+        require_once INSTALL_PATH . 'lib/Office.web/steps/mail/func.inc';
     }
 
     /**

@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/addressbook/undo.inc                                    |
+ | lib/Office.web/steps/addressbook/undo.inc                                    |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2011-2013, Kolab Systems AG                             |

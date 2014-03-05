@@ -21,7 +21,7 @@
 
 define('INSTALL_PATH', realpath(dirname(__FILE__) . '/..') . '/' );
 
-require INSTALL_PATH.'program/include/clisetup.php';
+require INSTALL_PATH.'lib/Office.web/include/clisetup.php';
 
 /** callback function for schema dump **/
 function print_schema($dump)

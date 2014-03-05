@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/addressbook/export.inc                                  |
+ | lib/Office.web/steps/addressbook/export.inc                                  |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2008-2013, The Roundcube Dev Team                       |

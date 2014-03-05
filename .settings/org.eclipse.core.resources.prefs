@@ -1,2 +1,4 @@
 eclipse.preferences.version=1
+encoding//installer/index.php=UTF-8
+encoding//lib/Office.web/localization/index.inc=UTF-8
 encoding//tests/MailFunc.php=UTF-8

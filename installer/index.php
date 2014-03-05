@@ -43,8 +43,8 @@ define('INSTALL_PATH', realpath(dirname(__FILE__) . '/../').'/');
 define('RCUBE_INSTALL_PATH', INSTALL_PATH);
 define('RCUBE_CONFIG_DIR', INSTALL_PATH . 'config/');
 
-$include_path  = INSTALL_PATH . 'program/lib' . PATH_SEPARATOR;
-$include_path .= INSTALL_PATH . 'program/include' . PATH_SEPARATOR;
+$include_path  = INSTALL_PATH . 'lib/Office.web/lib' . PATH_SEPARATOR;
+$include_path .= INSTALL_PATH . 'lib/Office.web/include' . PATH_SEPARATOR;
 $include_path .= ini_get('include_path');
 
 set_include_path($include_path);
@@ -168,7 +168,7 @@ include $include_steps[$RCI->step];
 </div>
 
 <div id="footer">
-  Installer by the Roundcube Dev Team. Copyright &copy; 2008-2012 – Published under the GNU Public License;&nbsp;
+  Installer by the Roundcube Dev Team. Copyright &copy; 2008-2012 ��� Published under the GNU Public License;&nbsp;
   Icons by <a href="http://famfamfam.com">famfamfam</a>
 </div>
 </body>

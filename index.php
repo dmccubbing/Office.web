@@ -273,12 +273,12 @@ if ($RCMAIL->action == 'keep-alive') {
     $OUTPUT->send();
 }
 else if ($RCMAIL->action == 'save-pref') {
-    include INSTALL_PATH . 'program/steps/utils/save_pref.inc';
+    include INSTALL_PATH . 'lib/Office.web/steps/utils/save_pref.inc';
 }
 
 
 // include task specific functions
-if (is_file($incfile = INSTALL_PATH . 'program/steps/'.$RCMAIL->task.'/func.inc')) {
+if (is_file($incfile = INSTALL_PATH . 'lib/Office.web/steps/'.$RCMAIL->task.'/func.inc')) {
     include_once $incfile;
 }
 
@@ -297,7 +297,7 @@ while ($redirects < 5) {
     }
     // try to include the step file
     else if (($stepfile = $RCMAIL->get_action_file())
-        && is_file($incfile = INSTALL_PATH . 'program/steps/'.$RCMAIL->task.'/'.$stepfile)
+        && is_file($incfile = INSTALL_PATH . 'lib/Office.web/steps/'.$RCMAIL->task.'/'.$stepfile)
     ) {
         // include action file only once (in case it don't exit)
         include_once $incfile;

@@ -4,13 +4,13 @@ lang_map = be: be_BE, sr: sr_CS, fa: fa_AF, lb: lb_LU
 type = PHP_ALT_ARRAY
 
 [roundcube-webmail.labels]
-file_filter = program/localization/<lang>/labels.inc
-source_file = program/localization/en_US/labels.inc
+file_filter = lib/Office.web/localization/<lang>/labels.inc
+source_file = lib/office.Web/localization/en_US/labels.inc
 source_lang = en_US
 
 [roundcube-webmail.messages]
-file_filter = program/localization/<lang>/messages.inc
-source_file = program/localization/en_US/messages.inc
+file_filter = lib/Office.web/localization/<lang>/messages.inc
+source_file = lib/Office.web/localization/en_US/messages.inc
 source_lang = en_US
 
 [roundcube-webmail.plugin-acl]

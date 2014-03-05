@@ -21,7 +21,7 @@
 
 define('INSTALL_PATH', realpath(dirname(__FILE__) . '/..') . '/' );
 
-require_once INSTALL_PATH . 'program/include/clisetup.php';
+require_once INSTALL_PATH . 'lib/Office.web/include/clisetup.php';
 
 $target_dir = unslashify($_SERVER['argv'][1]);
 

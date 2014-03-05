@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/settings/edit_response.inc                              |
+ | lib/Office.web/steps/settings/edit_response.inc                              |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2013, The Roundcube Dev Team                            |

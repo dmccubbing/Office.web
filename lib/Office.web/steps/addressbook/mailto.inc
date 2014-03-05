@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/addressbook/mailto.inc                                  |
+ | lib/Office.web/steps/addressbook/mailto.inc                                  |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2007-2013, The Roundcube Dev Team                       |

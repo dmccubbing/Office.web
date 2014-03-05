@@ -191,7 +191,7 @@
  2.6. cPanel (cpanel)
  --------------------
 
- Install cPanel XMLAPI Client Class into Roundcube program/lib directory
+ Install cPanel XMLAPI Client Class into Roundcube lib/Office.web/lib directory
  or any other place in PHP include path. You can get the class from
  https://raw.github.com/CpanelInc/xmlapi-php/master/xmlapi.php
 

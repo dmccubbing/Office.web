@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/utils/modcss.inc                                        |
+ | lib/Office.web/steps/utils/modcss.inc                                        |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2007-2012, The Roundcube Dev Team                       |

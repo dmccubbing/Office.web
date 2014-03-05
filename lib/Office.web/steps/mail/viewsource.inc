@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/viewsource.inc                                     |
+ | lib/Office.web/steps/mail/viewsource.inc                                     |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2013, The Roundcube Dev Team                       |
@@ -21,7 +21,7 @@
 
 ob_end_clean();
 
-// similar code as in program/steps/mail/get.inc
+// similar code as in lib/Office.web/steps/mail/get.inc
 if ($uid = rcube_utils::get_input_value('_uid', rcube_utils::INPUT_GET)) {
     $headers = $RCMAIL->storage->get_message_headers($uid);
     $charset = $headers->charset ? $headers->charset : $RCMAIL->config->get('default_charset');

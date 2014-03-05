@@ -30,7 +30,7 @@ if (@is_dir(TESTS_DIR . 'config')) {
     define('RCUBE_CONFIG_DIR', TESTS_DIR . 'config');
 }
 
-require_once(INSTALL_PATH . 'program/include/iniset.php');
+require_once(INSTALL_PATH . 'lib/Office.web/include/iniset.php');
 
 // Extend include path so some plugin test won't fail
 $include_path = ini_get('include_path') . PATH_SEPARATOR . TESTS_DIR . '..';

@@ -1,7 +1,7 @@
 <?php
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/mark.inc                                           |
+ | lib/Office.web/steps/mail/mark.inc                                           |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2013, The Roundcube Dev Team                       |

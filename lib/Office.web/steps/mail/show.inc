@@ -2,7 +2,7 @@
 
 /*
  +-----------------------------------------------------------------------+
- | program/steps/mail/show.inc                                           |
+ | lib/Office.web/steps/mail/show.inc                                           |
  |                                                                       |
  | This file is part of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2013, The Roundcube Dev Team                       |
@@ -34,7 +34,7 @@ if ($caps = rcube_utils::get_input_value('_caps', rcube_utils::INPUT_GET)) {
 $uid       = rcube_utils::get_input_value('_uid', rcube_utils::INPUT_GET);
 $mbox_name = $RCMAIL->storage->get_folder();
 
-// similar code as in program/steps/mail/get.inc
+// similar code as in lib/Office.web/steps/mail/get.inc
 if ($uid) {
     // set message format (need to be done before rcube_message construction)
     if (!empty($_GET['_format'])) {
@@ -347,7 +347,7 @@ function rcmail_message_contactphoto($attrib)
         ));
     }
     else {
-        $photo_img = $placeholder ? $placeholder : 'program/resources/blank.gif';
+        $photo_img = $placeholder ? $placeholder : 'lib/Office.web/resources/blank.gif';
     }
 
     return html::img(array('src' => $photo_img) + $attrib);
